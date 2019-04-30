@@ -1,6 +1,6 @@
 # startpage
 
-An app that makes it easy to hold a bunch of snippets you copy and paste a lot.
+A single-file startpage to replace your browser's default one.
 
 &nbsp;
 
