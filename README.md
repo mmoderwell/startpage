@@ -4,7 +4,7 @@ An app that makes it easy to hold a bunch of snippets you copy and paste a lot.
 
 &nbsp;
 
-![New Tab](/screen.png?raw=true "Startpage")
+![New Tab](screen.png?raw=true "Startpage")
 
 ## How to use
 
