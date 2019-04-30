@@ -30,7 +30,6 @@ IK8tgBqSgOZlosWHVixTnqoZGEYLByqEItWTDQDplxgV48tEUQAAAABJRU5ErkJggg==" rel="icon"
             font-family: 'Open Sans', sans-serif;
             max-width: 100vw;
             background-color: #fff;
-            /*background-image: linear-gradient(-225deg, #efefef 0%, #ffffff 100%);*/
         }
         .top_grid {
             display: grid;
@@ -227,7 +226,7 @@ IK8tgBqSgOZlosWHVixTnqoZGEYLByqEItWTDQDplxgV48tEUQAAAABJRU5ErkJggg==" rel="icon"
     function greeting() {
         const morning_greetings = ['Good morning,', 'Morning,', 'Rise n\' shine,', 'Greetings', 'Hi there,', 'Welcome back,'];
         const afternoon_greetings = ['Good afternoon,', 'Afternoon,', 'Greetings,', 'Welcome', 'Hi', 'Hello', 'Welcome back,'];
-        const night_greetings = ['Good evening', 'Evening', 'Welcome', 'Hi', 'Hello', 'Good night,', 'Sweet dreams,', 'Welcome back'];
+        const night_greetings = ['Good evening,', 'Evening,', 'Welcome,', 'Hi', 'Hello', 'Good night,', 'Sweet dreams,', 'Welcome back,'];
         const greet_html = document.getElementById('greeting');
         if (isMorning()) {
             greet_html.innerHTML = morning_greetings[Math.floor(Math.random() * morning_greetings.length)] + " " + name;
